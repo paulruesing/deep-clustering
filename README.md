@@ -22,6 +22,7 @@ approach, the *orange* two-way connection at the bottom denotes the *embedded* a
 - *notebooks/*: jupyter notebooks demonstrating the workflow on an example dataset
 - *data/*: input data and saved clustering models
 - *output/*: visualizations and model training logs
+- *literature/*: relevant paper(s) explaining the theoretical underpinning 
 - *images/*: illustrations for markdown cells and read-me
 
 ## 3. How to Use
@@ -47,8 +48,8 @@ The utilized classes are **Preprocessor** and **DECModel** from *src/pipeline/cl
 ### 4.1. Authors and Acknowledgment
 Paul Rüsing - pr@paulruesing.de - single and main contributor
 
-I acknowledge the inspiration drawn from
-- https://ieeexplore.ieee.org/document/5393690
+I acknowledge the inspiration drawn from https://arxiv.org/pdf/1802.01059, which is also present in the *literature/* 
+directory. 
 
 ### 4.2. License
 The project is licensed under the MIT license. To view a copy of this license, see [LICENSE](https://github.com/paulruesing/lrp-xai-pytorch?tab=MIT-1-ov-file).
