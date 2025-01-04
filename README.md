@@ -51,5 +51,7 @@ Paul Rüsing - pr@paulruesing.de - single and main contributor
 I acknowledge the inspiration drawn from https://arxiv.org/pdf/1802.01059, which is also present in the *literature/* 
 directory. 
 
+This repository comes with an exemplary dataset, that is https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset.
+
 ### 4.2. License
 The project is licensed under the MIT license. To view a copy of this license, see [LICENSE](https://github.com/paulruesing/lrp-xai-pytorch?tab=MIT-1-ov-file).
