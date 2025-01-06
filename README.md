@@ -35,10 +35,10 @@ in terminal in the project directory.
 
 ### 3.2. Recommendations
 Usage is demonstrated in the notebook, and it is advised to follow such procedure when implementing.
-The utilized classes are **Preprocessor** and **DECModel** from *src/pipeline/clustering.py*. The steps are as follows:
+The utilized classes are **DataPreprocessor** and **DeepClusteringModel** from *src/pipeline/deep_clustering.py*. The steps are as follows:
 
 1. initialise **preprocessor instance**: import and standardize data, remove outliers, detect correlations with PCA, visualize features
-2. initialise **DECModel instance** from parameters or .keras file
+2. initialise **DeepClusteringModel instance** from parameters or .keras file
 3. **pretrain AE** independent of clustering layer
 4. **initialise cluster weights** with k-means algorithm (separated clustering would be finished here)
 5. **train AE and cluster layer** jointly (embedded clustering is finished here)
